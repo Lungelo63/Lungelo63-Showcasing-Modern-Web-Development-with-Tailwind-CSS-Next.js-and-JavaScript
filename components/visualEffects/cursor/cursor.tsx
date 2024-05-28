@@ -6,17 +6,20 @@ interface CursorProps {
 }
 
 
-export const Cursor: FC<CursorProps> = (color) => {
+export const Cursor: FC<CursorProps> = ({color}) => {
     return <AnimatedCursor
-    color="#fff"
     innerSize={8}
-    outerSize={35}
+    outerSize={25}
     innerScale={1}
-    outerScale={1.7}
+    outerScale={2}
     outerAlpha={0}
+    innerStyle={{
+      backgroundColor: '#581845'
+    }}
     outerStyle={{
-      mixBlendMode: 'exclusion'
+      border: '1px solid #900C3F'
     }}
   />
 }
+export default Cursor;
 
