@@ -12,7 +12,7 @@ export default function Home() {
     perturbance="3"
     resolution="2048"
     >
-     {() => <div className="h-screen"></div>}
+     {() => <div className="h-screen p-20"></div>}
     </WaterWaveWrapper>
   );
 }
