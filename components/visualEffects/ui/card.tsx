@@ -15,7 +15,12 @@ const Card: FC<CardProps> = ({title,children,className}) => {
             className
             )}
         >
-            <div className="flex flex-col gap-y-6"></div>
+            <div className="flex flex-col gap-y-6">
+             (/*Title*/)
+             {
+                
+             }   
+            </div>
         </div>
     );
 };

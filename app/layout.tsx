@@ -17,7 +17,7 @@ const PixelFont = localFont({
 export const metadata: Metadata = {
   title: "Lungelo Packery",
   description: "Showcasing Modern Web Development with Tailwind CSS, Next.js, and JavaScript",
-  keywords: ['Lungelo Packery', 'Javascript', 'Next.js', 'React'],
+  keywords: ['Lungelo Packery', 'Javascript', 'Next.js', 'lungelopackery@gmail.com'],
   applicationName: "Portfolio Website",
   creator: "Lungelo Packery",
   formatDetection: {
