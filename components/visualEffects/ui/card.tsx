@@ -16,10 +16,14 @@ const Card: FC<CardProps> = ({title,children,className}) => {
             )}
         >
             <div className="flex flex-col gap-y-6">
-             (/*Title*/)
-             {
-                
-             }   
+            {/*Title*/}
+            { title ? (
+                <div className="font-pixel">
+                    <p className="uppercase text-lg">{title}</p>
+                </div>
+            ) : null}
+            {/*Children*/}  
+            {children}
             </div>
         </div>
     );
