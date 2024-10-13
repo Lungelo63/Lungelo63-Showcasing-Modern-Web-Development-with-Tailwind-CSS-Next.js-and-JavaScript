@@ -2,8 +2,15 @@
 import Image from "next/image";
 import clsx from "clsx";
 import { cn } from "@/lib/utils";
-import WaterWaveWrapper from "@/components/visualEffects/water-wave-wrapper";
+//import WaterWaveWrapper from "@/components/visualEffects/water-wave-wrapper";
 import Card from "@/components/visualEffects/ui/card";
+
+import dynamic from "next/dynamic";
+// Dynamic import to make sure it is only used in the client side env
+const WaterWaveWrapper = dynamic (
+  () => import("@/components/visualEffects/water-wave-wrapper"),
+  { ssr: false}
+);
 
 export default function Home() {
   return (
