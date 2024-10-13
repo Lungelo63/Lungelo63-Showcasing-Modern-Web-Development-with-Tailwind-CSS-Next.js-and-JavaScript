@@ -8,10 +8,13 @@ interface ButtonProps {
     className?: string;
 }
 
-const Button: FC<ButtonProps> ({ children, className, isIcon, link}) => {
+const Button: FC<ButtonProps> = ({ children, className, isIcon, link}) => {
     return <>
     {    
-        link ? <Link href={link} target="_blank"></Link>
+        link ? <Link href={link} target="_blank" className="w-10 h-10 cursor-pointer">
+
+        </Link>
+        : <div></div>
     }
     </>;
 };
