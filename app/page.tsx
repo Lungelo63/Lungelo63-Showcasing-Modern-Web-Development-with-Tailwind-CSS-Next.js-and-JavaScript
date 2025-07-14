@@ -12,6 +12,7 @@ import Card from "@/components/visualEffects/ui/card";
 import dynamic from "next/dynamic";
 import TextArea from "@/components/visualEffects/ui/text-area";
 import FancyButton from "@/components/visualEffects/ui/fancy-button";
+import MagneticWrapper from "@/components/visualEffects/magnetic-wrapper";
 // Dynamic import to make sure it is only used in the client side env
 const WaterWaveWrapper = dynamic (
   () => import("@/components/visualEffects/water-wave-wrapper"),
@@ -45,9 +46,11 @@ export default function Home() {
             <Input type="text" placeholder="Full name" icon={<FaRegUser />} />
             <TextArea placeholder="Full name"  />
             <TextArea placeholder="Full name" icon={<FaRegUser />} />
-            <div className="w-[320px]">
-            <FancyButton text="Contact me" icon={<FaArrowRight/>} />
-            </div>
+
+            <MagneticWrapper className="w-[320px]">
+              <FancyButton text="Contact me" icon={<FaArrowRight/>} />
+            </MagneticWrapper>
+
           </Card>
         </div>
       </div>
