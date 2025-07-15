@@ -8,11 +8,11 @@ import { FaArrowRight, FaRegUser } from "react-icons/fa6";
 import { AiOutlineHome } from "react-icons/ai";
 //import WaterWaveWrapper from "@/components/visualEffects/water-wave-wrapper";
 import Card from "@/components/visualEffects/ui/card";
-
 import dynamic from "next/dynamic";
 import TextArea from "@/components/visualEffects/ui/text-area";
 import FancyButton from "@/components/visualEffects/ui/fancy-button";
 import MagneticWrapper from "@/components/visualEffects/magnetic-wrapper";
+import ScrollDown from "@/components/visualEffects/scroll-down";
 // Dynamic import to make sure it is only used in the client side env
 const WaterWaveWrapper = dynamic (
   () => import("@/components/visualEffects/water-wave-wrapper"),
@@ -47,10 +47,13 @@ export default function Home() {
             <TextArea placeholder="Full name"  />
             <TextArea placeholder="Full name" icon={<FaRegUser />} />
 
-            <MagneticWrapper className="w-[320px]">
+            <MagneticWrapper className="w-[350px]">
               <FancyButton text="Contact me" icon={<FaArrowRight/>} />
             </MagneticWrapper>
 
+            <MagneticWrapper className="">
+              <ScrollDown/>
+            </MagneticWrapper>
           </Card>
         </div>
       </div>
