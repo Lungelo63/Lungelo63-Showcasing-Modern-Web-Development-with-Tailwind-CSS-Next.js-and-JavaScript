@@ -13,6 +13,7 @@ import TextArea from "@/components/visualEffects/ui/text-area";
 import FancyButton from "@/components/visualEffects/ui/fancy-button";
 import MagneticWrapper from "@/components/visualEffects/magnetic-wrapper";
 import ScrollDown from "@/components/visualEffects/scroll-down";
+import Profile from "@/components/visualEffects/ui/profile";
 // Dynamic import to make sure it is only used in the client side env
 const WaterWaveWrapper = dynamic (
   () => import("@/components/visualEffects/water-wave-wrapper"),
@@ -46,7 +47,7 @@ export default function Home() {
             <Input type="text" placeholder="Full name" icon={<FaRegUser />} />
             <TextArea placeholder="Full name"  />
             <TextArea placeholder="Full name" icon={<FaRegUser />} />
-
+            <Profile/>
             <MagneticWrapper className="w-[350px]">
               <FancyButton text="Contact me" icon={<FaArrowRight/>} />
             </MagneticWrapper>
