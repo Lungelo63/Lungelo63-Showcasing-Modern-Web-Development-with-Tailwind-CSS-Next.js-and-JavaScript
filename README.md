@@ -32,3 +32,37 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+<div className="w-full p-10">
+        <div className="max-w-2xl mx-auto">
+          <Card title="Ui components">
+            <div className="grid grid-cols-4">
+              <Button>Basic Button</Button>
+              <Button>
+                <AiOutlineHome/>
+                Basic Button
+                </Button>
+                <Button isIcon>
+                  <FaRegUser/>
+                  </Button>
+                  <Button link="https://www.google.com">Google</Button>
+            </div>
+            <Input type="text" placeholder="Full name"/>
+            <Input type="text" placeholder="Full name" icon={<FaRegUser />} />
+            <TextArea placeholder="Full name"  />
+            <TextArea placeholder="Full name" icon={<FaRegUser />} />
+            <Profile/>
+            <MagneticWrapper className="w-[350px]">
+              <FancyButton text="Contact me" icon={<FaArrowRight/>} />
+            </MagneticWrapper>
+
+            <MagneticWrapper className="">
+              <ScrollDown/>
+            </MagneticWrapper>
+          </Card>
+        </div>
+      </div>
+    )}
+    </WaterWaveWrapper>
+  );

@@ -14,6 +14,8 @@ import FancyButton from "@/components/visualEffects/ui/fancy-button";
 import MagneticWrapper from "@/components/visualEffects/magnetic-wrapper";
 import ScrollDown from "@/components/visualEffects/scroll-down";
 import Profile from "@/components/visualEffects/ui/profile";
+import LandingSection from "@/sections/landing";
+import Header from "@/components/navigation/header/header";
 // Dynamic import to make sure it is only used in the client side env
 const WaterWaveWrapper = dynamic (
   () => import("@/components/visualEffects/water-wave-wrapper"),
@@ -28,37 +30,11 @@ export default function Home() {
     perturbance="3"
     resolution="2048"
     >
-    {() => ( 
-      <div className="w-full p-10">
-        <div className="max-w-2xl mx-auto">
-          <Card title="Ui components">
-            <div className="grid grid-cols-4">
-              <Button>Basic Button</Button>
-              <Button>
-                <AiOutlineHome/>
-                Basic Button
-                </Button>
-                <Button isIcon>
-                  <FaRegUser/>
-                  </Button>
-                  <Button link="https://www.google.com">Google</Button>
-            </div>
-            <Input type="text" placeholder="Full name"/>
-            <Input type="text" placeholder="Full name" icon={<FaRegUser />} />
-            <TextArea placeholder="Full name"  />
-            <TextArea placeholder="Full name" icon={<FaRegUser />} />
-            <Profile/>
-            <MagneticWrapper className="w-[350px]">
-              <FancyButton text="Contact me" icon={<FaArrowRight/>} />
-            </MagneticWrapper>
-
-            <MagneticWrapper className="">
-              <ScrollDown/>
-            </MagneticWrapper>
-          </Card>
+      {() => (
+        <div>
+          <LandingSection />
         </div>
-      </div>
-    )}
+      )}
     </WaterWaveWrapper>
   );
 }
