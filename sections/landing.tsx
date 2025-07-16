@@ -34,7 +34,7 @@ export default function LandingSection() {
                 </div>
                 <div className='relative'>
                     <span>Magnificence</span>
-                    <div className=' text-[1rem] leading-[1.4rem] tracking-[0.07rem] absolute top-[14vw] lg:top-[10vw] 2xl:top-[9rem] left-0 2xl:left-[57rem] w-[30rem] uppercase font-normal'>
+                    <div className=' text-[1rem] leading-[1.4rem] tracking-[-0.07rem] absolute top-[14vw] lg:top-[10vw] 2xl:top-[9rem] left-0 2xl:left-[57rem] w-[30rem] uppercase font-normal'>
                         <span>Through code, I wield intelligence</span>
                         <br />
                         <span>as a force to transcend limits</span>
