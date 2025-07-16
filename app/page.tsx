@@ -35,7 +35,7 @@ export default function Home() {
           <LandingSection />
         </div>
       )}
-    </WaterWaveWrapper>
+    </WaterWaveWrapper> 
   );
 }
 
