@@ -44,10 +44,10 @@ export default function LandingSection() {
             </div>
           </div>
         </div>
-        {/*Magentic scroll down. Having a problem with this button
+        {/*Magentic scroll down. Having a problem with this button*/}
         <MagnetciWrapper className="absolute left-1/2 -translate-x-1/2 bottom-[8rem] md:bottom-[4rem] 2xl:-bottom-10 ">
             <ScrollDown />
-        </MagnetciWrapper>*/}
+        </MagnetciWrapper>
       </div>
     </div>
   );
