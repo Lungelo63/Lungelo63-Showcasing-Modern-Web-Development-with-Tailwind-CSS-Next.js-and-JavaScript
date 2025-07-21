@@ -27,13 +27,13 @@ const featuredData = [
       link: "https://www.pexels.com/video/hands-typing-on-backlit-keyboard-close-up-5377700/",
     },
     {
-      title: "Seal On The Beach",
+      title: "Location Tracking 3D Animation",
       logo: "",
-      tag: "Posted Oct 20, 2018",
+      tag: "Posted Feb 8, 2025",
       video:
-        "https://videos.pexels.com/video-files/1526909/1526909-hd_1920_1080_24fps.mp4",
-      credits: "Ruvim Miksanskiy",
-      link: "https://www.pexels.com/video/seal-on-the-beach-1526909/",
+        "https://cdn.dribbble.com/userupload/22966989/file/original-17db4a9c646777730075eb37ab70cf0d.mp4",  
+      credits: "Abron Studio",
+      link: "https://dribbble.com/shots/25599643-KEPT-Location-Tracking-3D-Animation",
     },
   ];
   

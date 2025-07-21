@@ -26,7 +26,7 @@ export default function LandingSection() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mt-8 leading-[14vw] lg:leading-[10vw] 2xl:leading-[9rem] font-medium h-[40rem] tracking-[-0.3rem]">
         <div className="flex flex-col justify-center items-center text-primary-foreground text-[18vw] lg:text-[14vw] 2xl:text-[12rem] uppercase">
           <div>
-            <span>Code.</span>
+            <span>Code</span>
           </div>
           <div>
             <span>Crafted</span>
