@@ -35,10 +35,10 @@ export default function Home() {
     >
       {() => (
         <div className="pb-8">
-        
+        {/*
           <LandingSection />
           < FeaturedSection />
-       
+      */}  
           <AboutSection />
         
         
