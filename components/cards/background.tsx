@@ -18,7 +18,7 @@ export default function Background() {
     but it was my own curiosity that made me fall in love with building things from scratch and solving problems through code. 
     <br />
     <br />
-    Though I’ve grown deeply technical, there’s more to me than just lines of code. I’ve always loved music, 
+    Though I`ve grown deeply technical, there`s more to me than just lines of code. I`ve always loved music, 
     and I listen to&nbsp;
     <span className="text-white underline">Spotify every day while coding</span> — it helps me focus and stay in rhythm. 
     I'm also a naturally curious person — which once led me into the world of&nbsp;
