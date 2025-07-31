@@ -26,13 +26,13 @@ export default function LandingSection() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mt-8 leading-[14vw] lg:leading-[10vw] 2xl:leading-[9rem] font-medium h-[40rem] tracking-[-0.3rem]">
         <div className="flex flex-col justify-center items-center text-primary-foreground text-[18vw] lg:text-[14vw] 2xl:text-[12rem] uppercase">
           <div>
-            <span>Code</span>
+            <span>A Code</span>
           </div>
           <div>
             <span>Crafted</span>
           </div>
           <div className="relative">
-            <span>Magnificence</span>
+            <span>Masterpiece</span>
             <div className="text-[1rem] leading-[1.4rem]  tracking-[-0.07rem] absolute top-[14vw] lg:top-[10vw] 2xl:top-[9rem] left-0 2xl:left-[57rem] w-[30rem] uppercase font-normal">
               <span>Through code, I wield intelligence</span>
               <br />
