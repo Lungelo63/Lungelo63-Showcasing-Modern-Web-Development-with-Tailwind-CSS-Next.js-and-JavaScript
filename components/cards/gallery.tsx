@@ -13,7 +13,7 @@ export default function Gallery() {
           clickable: true,
         }}
         autoplay={{
-          delay: 3500,
+          delay: 4500,
           disableOnInteraction: false,
         }}
         className="mySwiper rounded-2xl"

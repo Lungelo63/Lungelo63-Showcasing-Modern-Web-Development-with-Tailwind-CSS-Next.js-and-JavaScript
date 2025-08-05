@@ -1,4 +1,5 @@
 import Background from '@/components/cards/background'
+import ExperienceCard from '@/components/cards/experience'
 import Gallery from '@/components/cards/gallery'
 import MeCard from '@/components/cards/me'
 import ResumeCard from '@/components/cards/resume'
@@ -28,7 +29,7 @@ export default function AboutSection() {
               </div> 
               <div className="space-y-4">
                 <Card title='Stack'>Stack</Card>
-                <Card title='Experience'>Experience</Card>
+                <ExperienceCard/>
                 <Card title='Education'>Education</Card>
               </div>
               <div className="hidden 2xl:flex">
