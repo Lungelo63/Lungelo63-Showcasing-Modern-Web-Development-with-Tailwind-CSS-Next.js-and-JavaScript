@@ -1,15 +1,15 @@
 const featuredData = [
     {
-      title: "Abyss — Crypto Exchange Mobile App Design, Crypto Trading App",
-      logo: "https://cdn.dribbble.com/userupload/19379895/file/original-1813a1a83f429c7c72e03dcc6abc5170.png?resize=1024x768&vertical=center",
-      tag: "Posted Jan 14, 2025",
+      title: "A Golden Coin and Paper Cut Outs",
+      logo: "https://images.pexels.com/users/avatars/3149039/rdne-productions-246.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=1",
+      tag: "Posted Jun 17, 2021",
       video:
-        "https://cdn.dribbble.com/userupload/18414846/file/original-819b877a4c2923c0ace851053359c1b3.mp4",
-      credits: "Shakuro",
-      link: "https://dribbble.com/shakuro",
+        "https://videos.pexels.com/video-files/8370055/8370055-hd_1920_1080_30fps.mp4",
+      credits: "RDNE Stock project",
+      link: "https://www.pexels.com/@rdne/",
     },
     {
-      title: "Virtually Reality Gear Gesturing",
+      title: "Virtual Reality Gear Gesturing",
       logo: "",
       tag: "Posted Nov 19, 2019",
       video:
