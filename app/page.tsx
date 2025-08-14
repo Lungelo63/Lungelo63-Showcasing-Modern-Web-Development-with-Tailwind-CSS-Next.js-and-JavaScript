@@ -19,6 +19,7 @@ import Header from "@/components/navigation/header/header";
 import FeaturedSection from "@/sections/featured";
 import About from "@/sections/about";
 import AboutSection from "@/sections/about";
+import ContactSection from "@/sections/contact";
 // Dynamic import to make sure it is only used in the client side env
 const WaterWaveWrapper = dynamic (
   () => import("@/components/visualEffects/water-wave-wrapper"),
@@ -38,10 +39,14 @@ export default function Home() {
         
           <LandingSection />
           < FeaturedSection />
-      
-      
           <AboutSection />
-        
+       
+       
+       {/*
+       <ContactSection />
+      */}
+          
+     
         
         
         </div>

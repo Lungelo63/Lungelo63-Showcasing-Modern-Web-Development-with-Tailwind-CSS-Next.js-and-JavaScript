@@ -8,7 +8,7 @@ import Socials from "../visualEffects/ui/socials";
 
 export default function ResumeCard() {
   return (
-    <Card className="md:h-full 2xl:h-fit">
+    <Card className="md:h-full">
         <p className="text-lg xl:text-2xl font-medium text-primary-foreground">
         I began my journey in tech when I was in Hoërskool Hoogenhout, where I had interest in problem solving and I realized 
         I was good at figuring things out and wanted to understand how things worked behind the screen. This led

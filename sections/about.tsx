@@ -9,6 +9,7 @@ import ResumeCard from '@/components/cards/resume'
 import Heading from '@/components/heading/heading'
 import Card from '@/components/visualEffects/ui/card'
 import React from 'react'
+import StackCard from "@/components/cards/stack"
 
 export default function AboutSection() {
   return (
@@ -31,7 +32,7 @@ export default function AboutSection() {
                 <FreelanceCard />
               </div> 
               <div className="space-y-4">
-                <Card title='Stack'>Stack</Card>
+                <StackCard />
                 <ExperienceCard/>
                 <EducationCard />
               </div>
