@@ -1,6 +1,6 @@
 import Card from "../visualEffects/ui/card";
 import { stackData } from "@/data/stack";
-import Tooltip from "@/components/visualEffects/ui/Tooltip";
+import Tooltip from "@/components/visualEffects/ui/tooltip";
 
 export default function StackCard() {
   return (
