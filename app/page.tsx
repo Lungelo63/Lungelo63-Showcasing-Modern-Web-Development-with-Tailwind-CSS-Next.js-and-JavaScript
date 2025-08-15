@@ -41,9 +41,9 @@ export default function Home() {
           < FeaturedSection />
           <AboutSection />
        
-          {/*
-       <ContactSection />
-      */}
+          
+          <ContactSection />
+      
        
           
      
