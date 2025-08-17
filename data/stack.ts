@@ -34,7 +34,7 @@ export const stackData = [
         id: 2,
         title: "Python",
         image: PythonImg,
-        bgColor: "#F0DB4F",
+        bgColor: "",
       },
       {
         id: 3,

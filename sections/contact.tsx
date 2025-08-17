@@ -1,9 +1,13 @@
 import ContactCard from "@/components/cards/contact";
 import Heading from "@/components/heading/heading";
+import Button from "@/components/visualEffects/ui/button";
 import Card from "@/components/visualEffects/ui/card";
 import Input from "@/components/visualEffects/ui/input";
+import TextArea from "@/components/visualEffects/ui/text-area";
+import { FaProjectDiagram } from "react-icons/fa";
 import { FaPhoneVolume, FaUser } from "react-icons/fa6";
 import { MdEmail, MdSubject } from "react-icons/md";
+import { SiMinutemailer } from "react-icons/si";
 
 export default function ContactSection() {
   return (
@@ -19,13 +23,13 @@ export default function ContactSection() {
                     title="Reach me on:"
                     icon={<FaPhoneVolume className="fill-[#333] text-lg"/>}
                     text="+27 - 72 - 778 - 6554"
-                    btnText="Call Me"
+                    btnText="Make Call"
                     />
                     <ContactCard 
-                    title="Write to me @:"
+                    title="Write me at:"
                     icon={<MdEmail className="fill-[#333] text-lg"/>}
                     text="lungelopackery@gmail.com"
-                    btnText="Email Me"
+                    btnText="Send Email"
                     />
                 </div>
                 {/* Contact Form */}
@@ -50,6 +54,26 @@ export default function ContactSection() {
                         icon={<MdSubject/>}
                         />
                     </div>
+                    {/* Multiple selector wrapper */}
+                    <div className="flex flex-col gap-6">
+                        <div>
+                            <h1 className="font-bold text-lg">
+                                Reason for contact
+                            </h1>
+                            <div className="flex flex-wrap items-center justify justify-between mb-4 gap-8">
+
+                            </div>
+                        </div>
+                    </div>
+                    {/* Text Area Message*/}
+                <TextArea placeholder=" Message"  icon={<FaProjectDiagram /> }
+                />
+                <div className="w-full flex justify-end">
+                    <Button className="w-44 py-3 text-xl">
+                        Send <SiMinutemailer />
+                    </Button>
+                </div>
+                
                 </div>
             </div>
         </Card>
